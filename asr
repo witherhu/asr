@@ -1,10 +1,5 @@
- <!DOCTYPE html>
-<html>
-<body>
-
-<h1>automatic speech recognition</h1>
-
-<p>The problem of automatic speech recognition has been an important research topic in the machine
+automatic speech recognition
+The problem of automatic speech recognition has been an important research topic in the machine
 learning community since as early as the 70s [13]. Most standard ASR systems delineate
 between phoneme recognition and word decoding[11][13]. Before the emergence of deep learning,
 researchers often utilized other classification algorithms on highly specialized features such as
@@ -14,7 +9,5 @@ likely sequence of phones that can be mapped to output words. Earlier applicatio
 in speech also separates the two tasks; there are many successful hybrid systems that take advantage
 of DNN’s discriminative power for phone recognition but leave the decoding for the HMM. We are
 interested in extending the recent developments as done in [9][10] that have produced state-of-the-art
-results with recurrent neural networks that can handle recognition and decoding simultaneously.</p>
-
-</body>
-</html> 
+results with recurrent neural networks that can handle recognition and decoding simultaneously.
+ 
